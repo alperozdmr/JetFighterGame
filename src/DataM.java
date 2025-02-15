@@ -33,7 +33,7 @@ public class DataM {
 	            bufferedWriter.close();
 
 	        } catch (IOException e) {
-	            e.printStackTrace();
+	           System.out.println("PlayerScor bulunamadı");
 	        }
 			
 			return true;
