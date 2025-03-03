@@ -40,12 +40,12 @@ public class GamePanel extends JFrame implements ActionListener {
 		 gameHeader.setHorizontalAlignment(SwingConstants.CENTER);		// Text Alignment
 		 gameHeader.setSize(300,60);				 	 				// Label Location
 		 gameHeader.setLocation(150, 30);								// Label position
-		 gameHeader.setForeground(Color.white);	 	 					// Label Text Color
+		 gameHeader.setForeground(Color.BLACK);	 	 					// Label Text Color
 		 add(gameHeader);	
 		 
 		
 		 try {
-				ImageIcon image = new ImageIcon(getClass().getResource("BG1.gif"));
+				ImageIcon image = new ImageIcon(getClass().getResource("bgq.jpg"));
 				Image = new JLabel(image);
 				Image.setBounds(0, 20, 600, 500);
 				add(Image);
